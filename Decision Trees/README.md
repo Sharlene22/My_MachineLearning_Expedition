@@ -1,0 +1,1 @@
+This project implements and compares the performance of three popular machine learning algorithms for breast cancer classification: decision trees, random forests, and XGBoost. The goal is to develop accurate models for distinguishing between malignant and benign breast tumors based on features extracted from digitized images of breast tissue.
