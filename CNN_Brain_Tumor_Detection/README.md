@@ -1,13 +1,11 @@
 # Brain Tumor Detection using Deep Convolutional Neural Network
-This project contains the implementation of a deep convolutional neural network (CNN) architecture for the detection of brain tumor classification, including glioma, meningioma, and pituitary diseases. The primary objective is to achieve high classification accuracy within a short time frame.
+In this research, a deep convolutional neural network (CNN) architecture is implemented for the purpose of classifying brain tumors, such as gliomas, meningiomas, and pituitary disorders. Achieving high classification accuracy in a short amount of time is the main goal.
 
-Dataset Collection and Pre-processing : Collected a comprehensive Brain MRI dataset from Kaggle, which serves as the basis for training and testing our model. Prior to training, we applied pre-processing techniques to the dataset. This involved identifying extreme contour points and cropping the images to focus on the relevant brain regions.
+Dataset Preparation and Collection: We gathered a large Brain MRI dataset from Kaggle to use as the foundation for our model's training and testing. We used pre-processing methods on the dataset before training. In order to focus on the appropriate brain areas, the pictures had to be cropped after extreme contour points were found.
 
-Model Architecture : Adopted the EfficientNet-B1 model, which is a pre-trained model on the ImageNet dataset. This model offers a balance between accuracy and computational efficiency, making it suitable for our classification task.
+Model Architecture: Pre-trained on the ImageNet dataset, the EfficientNet-B1 model was adopted. This model balances computational economy and accuracy, which makes it appropriate for our classification job.
 
-Training and Validation : The model was trained on the pre-processed training dataset and validated using a separate validation dataset. During training, we achieved an impressive training accuracy of 99.53%.
-
-
+Training and Validation: Using a different validation dataset, the model was validated after being trained on the pre-processed training dataset. We obtained a remarkable training accuracy of 99.53% during the training process.
 
 ![image](https://github.com/KapaBhavana01/My_MachineLearning_Journey/assets/163066152/4460b989-aa53-4a59-8f39-ff9a0eadfc6c)
 
